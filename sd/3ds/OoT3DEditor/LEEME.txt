@@ -1,1 +1,16 @@
-OoT3D Editor
+OoT3D Editor - editor de partidas de Ocarina of Time 3D (3DS)
+
+Como usarlo (todo en la consola):
+1. Abre Checkpoint, elige Ocarina of Time 3D y haz un respaldo (Backup).
+2. Abre el Homebrew Launcher y entra a "OoT3D Editor".
+3. Elige el respaldo y el archivo de tu partida:
+   save00.bin = partida 1, save01.bin = partida 2, save02.bin = partida 3.
+   (system.dat son solo las opciones; no lo abras.)
+4. Edita:  Arriba/Abajo elegir, Izq/Der cambiar (Y + Izq/Der de 10 en 10),
+   A = maximo o activar, L/R = cambiar de pagina.
+5. Pulsa START para guardar. La primera vez se crea una copia ".orig".
+6. Vuelve a Checkpoint y restaura (Restore) ese mismo respaldo.
+
+Seguridad: si el editor no reconoce el checksum de la partida, no deja editarla.
+Motor: Lua Player Plus (lpp-3ds) de Rinnegatamante (GPL-3.0).
+Codigo y actualizaciones: ver el repositorio en GitHub.
