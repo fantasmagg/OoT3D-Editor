@@ -1,0 +1,6 @@
+# partidas personales y copias
+*.bin
+*.orig
+*.dat
+__pycache__/
+dist/
